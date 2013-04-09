@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  font-family: verdana;
+}
+header{
+  background-color: black;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+h1{
+  color: white;
+  margin: 0px;
+  display: inline;
+}
+h2{
+  display: inline;
+  margin-right: 5px;
+}
+h2:hover{
+  color: orange;
+}
+.inner_header{
+  width: 80%;
+  margin: auto;
+}
+.right_header{
+  color: lightblue;
+  float: right;
+  padding-top: 5px;
+}
+
