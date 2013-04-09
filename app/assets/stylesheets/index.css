@@ -5,8 +5,8 @@ body{
 header{
   background-color: black;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 h1{
   color: white;
@@ -18,7 +18,7 @@ h2{
   margin-right: 5px;
 }
 h2:hover{
-  color: orange;
+  color: lightgreen;
 }
 .inner_header{
   width: 80%;
@@ -30,3 +30,18 @@ h2:hover{
   padding-top: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
