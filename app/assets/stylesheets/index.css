@@ -18,7 +18,7 @@ h2{
   margin-right: 5px;
 }
 h2:hover{
-  color: lightgreen;
+  color: orange;
 }
 .inner_header{
   width: 80%;
@@ -29,17 +29,34 @@ h2:hover{
   float: right;
   padding-top: 5px;
 }
-
-
-
-
-
-
-
+.main{
+  width: 80%;
+  margin: auto; 
+}
+p{
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+form{
+  width: 60%;
+  margin: auto;
+}
+.bottom-main{
+  width: 50%;
+  margin: auto;
+}
+.list{
+}
+.social-list{
+  
+}
 
 
 
 footer{
+  margin-top: 40px;
+  color: lightblue;
   background-color: black;
   width: 100%;
   padding-top: 15px;
