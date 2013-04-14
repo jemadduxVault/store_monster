@@ -5,11 +5,10 @@ body{
 header{
   background-color: black;
   width: 100%;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 11px;
+  padding-bottom: 15px;
 }
 h1{
-  color: white;
   margin: 0px;
   display: inline;
 }
@@ -17,11 +16,8 @@ h2{
   display: inline;
   margin-right: 5px;
 }
-h2:hover{
-  color: orange;
-}
 .inner_header{
-  width: 80%;
+  width: 73%;
   margin: auto;
 }
 .right_header{
@@ -46,18 +42,20 @@ form{
   width: 50%;
   margin: auto;
 }
-.list{
+li:hover{
+  color: lightgreen;
 }
-.social-list{
-  
+a{
+  text-decoration: none;
+  color: lightblue;
 }
-
-
-
+a:hover{
+  color: lightgreen;
+}
 footer{
   margin-top: 40px;
-  color: lightblue;
-  background-color: black;
+  color: black;
+  background-color: darkgrey;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
