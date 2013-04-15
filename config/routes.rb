@@ -1,7 +1,7 @@
 StoreMonster::Application.routes.draw do
 
   get "/" => "application#index"
-  get "plans" => "application#plans"
+  get "pricing" => "application#pricing"
   get "examples" => "application#examples"
   get "features" => "application#features"
   get "resources" => "application#resources"

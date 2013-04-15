@@ -5,8 +5,8 @@ class ApplicationController < ActionController::Base
     render "home/index"
   end
 
-  def plans
-    render "home/plans"
+  def pricing
+    render "home/pricing"
   end
 
   def examples
