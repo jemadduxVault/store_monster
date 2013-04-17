@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>StoreMonster</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+  <header>
+    <div class="inner_header">
+      <h1><%= link_to "Store Monster", home_path %></h1>
+      <div class="right_header">
+        <h2><%= link_to "Pricing", pricing_path %></h2>
+        <h2><%= link_to "Examples", examples_path %></h2>
+        <h2><%= link_to "Features", features_path %></h2>
+        <h2><%= link_to "Resources", resources_path %></h2>
+        <h2><%= link_to "Blog", blog_path %></h2>
+        <h2>Login</h2>
+      </div>
+    </div>
+  </header>
+
+  <%= yield %>
+
+  <footer>
+    <div class="bottom-main">
+      <ul class="list">
+        <li>Features</li>
+        <li>Mobile</li>
+        <li>Google Ads</li>
+        <li>Testimonials</li>
+        <li>Contact Us</li>
+        <li>FAQ</li>
+        <li>About Us</li>
+      </ul>
+
+      <ul class="social-list">
+        <li>Facebook</li>
+        <li>LinkedIn</li>
+        <li>Twitter</li>
+        <li>YouTube</li>
+        <li>Pinterest</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

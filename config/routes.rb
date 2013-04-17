@@ -1,11 +1,13 @@
 StoreMonster::Application.routes.draw do
 
-  get "/" => "application#index"
-  get "pricing" => "application#pricing"
-  get "examples" => "application#examples"
-  get "features" => "application#features"
-  get "resources" => "application#resources"
-  get "blog" => "application#blog"
+  get "home" => "home#index"
+  get "pricing" => "home#pricing"
+  get "examples" => "home#examples"
+  get "features" => "home#features"
+  get "resources" => "home#resources"
+  get "blog" => "home#blog"
+
+  root :to => "application#email_signup_for_store_monster"
 
 end
 
