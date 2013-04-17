@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
   gem 'rails', '3.2.13'
-  gem 'sqlite3'
+  gem 'pg'
   gem 'jquery-rails'
   gem 'newrelic_rpm'
 
@@ -10,7 +10,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development do
+group :development, :test do
+  gem 'sqlite3'
   gem 'unicorn'
   gem 'better_errors'
   gem 'binding_of_caller'
