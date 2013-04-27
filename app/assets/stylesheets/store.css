@@ -2,17 +2,14 @@ body{
   margin: 0px;
   font-family: verdana;
 }
-header{
-  background-color: black;
-  width: 100%;
-  padding-top: 11px;
-  padding-bottom: 15px;
-}
+
 h1{
+  font-size: 250%;
   margin: 0px;
   display: inline;
 }
 h2{
+  color: lightblue;
   display: inline;
   margin-right: 5px;
 }
@@ -26,8 +23,13 @@ h2{
   padding-top: 5px;
 }
 .main{
-  width: 80%;
-  margin: auto; 
+  width: 73%;
+  margin: auto;
+}
+.box{
+  border: solid black 4px;
+  height: 50px;
+  padding: 15px;
 }
 p{
   width: 50%;
@@ -52,11 +54,4 @@ a{
 a:hover{
   color: lightgreen;
 }
-footer{
-  margin-top: 40px;
-  color: black;
-  background-color: darkgrey;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+

@@ -7,6 +7,10 @@ StoreMonster::Application.routes.draw do
   get "resources" => "home#resources"
   get "blog" => "home#blog"
 
+  get "store/frontpage" => "store#frontpage"
+  get "store_admin/dashboard" => "store_admin#dashboard"
+  get "platform_admin/dashboard" => "platform_admin#dashboard"
+
   # constraints(Subdomain) do
   #   match '/' => 'application#subdomain'
   # end

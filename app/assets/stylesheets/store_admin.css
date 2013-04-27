@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  font-family: verdana;
+}
+
+h1{
+  font-size: 250%;
+  margin: 0px;
+  display: inline;
+}
+h2{
+  color: lightblue;
+  display: inline;
+  margin-right: 5px;
+}
+.inner_header{
+  width: 73%;
+  margin: auto;
+}
+.right_header{
+  color: lightblue;
+  float: right;
+  padding-top: 5px;
+}
+.main{
+  width: 73%;
+  margin: auto;
+}
+.box{
+  border: solid black 4px;
+  height: 50px;
+  padding: 15px;
+}
+.side-nav li{
+  padding: 10px;
+  margin: 0px;
+  border: solid black 1px;
+  background-color: lightblue;
+}
+.side-nav li:hover{
+  background-color: lightgreen;
+}
+.admin_dashboard_item{
+  list-style: none;
+  margin-top: 4px;
+  border-bottom: dashed black 1px;
+}
+form{
+  width: 60%;
+  margin: auto;
+}
+.bottom-main{
+  width: 50%;
+  margin: auto;
+}
+li:hover{
+  color: lightgreen;
+}
+a{
+  text-decoration: none;
+  color: lightblue;
+}
+a:hover{
+  color: lightgreen;
+}

@@ -1,0 +1,26 @@
+<div class="row">
+<!-- Main Content Section -->
+<!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+<div class="large-9 push-3 columns">
+<h3>Open Orders</h3>
+  <ul>
+    <% 17.times do %>
+      <li class="admin_dashboard_item">
+        <%= link_to "An Order or Product or Whatever", "#" %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+<!-- Nav Sidebar -->
+<!-- This is source ordered to be pulled to the left on larger screens -->
+<div class="large-3 pull-9 columns">
+  <ul class="side-nav">
+    <li><%= link_to "Open Orders", "#" %></li>
+    <li><%= link_to "Closed Orders", "#" %></li>
+    <li><%= link_to "Products", "#" %></li>
+    <li><%= link_to "Something Else", "#" %></li>
+    <li><%= link_to "Something Else", "#" %></li>
+    <li><%= link_to "Something Else", "#" %></li>
+  </ul>
+</div>
+</div>
