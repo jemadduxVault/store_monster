@@ -7,6 +7,10 @@ StoreMonster::Application.routes.draw do
   get "resources" => "home#resources"
   get "blog" => "home#blog"
 
+  # constraints(Subdomain) do
+  #   match '/' => 'application#subdomain'
+  # end
+
   root :to => "application#email_signup_for_store_monster"
 
 end
